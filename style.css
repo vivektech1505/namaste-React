@@ -1,0 +1,17 @@
+#heading{
+    color: red;
+}
+.abc{
+    width: 50%;
+    height: 500px;
+    background-color: aqua;
+    margin: 100px;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px blue;
+    text-shadow: 1px 2px 5px black;
+}
