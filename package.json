@@ -1,0 +1,23 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "This is Namaste React By Vivek Kumar",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivektech1505/namaste-React.git"
+  },
+  "keywords": [],
+  "author": "Vivek Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vivektech1505/namaste-React/issues"
+  },
+  "homepage": "https://github.com/vivektech1505/namaste-React#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  }
+}

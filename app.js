@@ -1,11 +1,22 @@
-var heading = React.createElement(
-    "h1", 
-    {id : "heading", className: "abc"},
-    "Hello World from React ! VIVEK PAL");
+const parent = React.createElement(
+    "div",
+    {id:"parent"},
+    React.createElement(
+        "div",
+        {id : "child"}, [
+        React.createElement("h1",{},"I am h1 tags"),
+        React.createElement("h2",{},"I am h2 tags"),
+        React.createElement("h1",{},"I am vivek from React")
+    ]),
+    React.createElement(
+        "div",
+       {id : "child1"}, [
+        React.createElement("h1",{},"I am h1 tags"),
+        React.createElement("h2",{},"I am h2 tags"),
+        React.createElement("h1",{},"I am vivek from React")
+    ]));
+console.log(parent);
 
-console.log(heading) // return object
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
-
-var vivek = ReactDOM.createRoot(document.getElementById("root"));
-
-vivek.render(heading);
+root.render(parent);
